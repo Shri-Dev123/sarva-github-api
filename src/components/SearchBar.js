@@ -29,15 +29,11 @@ const SearchBar = ({ onSearch }) => {
                     className="absolute right-0 top-0 mt-3 mr-4"
                 >
                     <svg
-                        className="h-4 w-4 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
+                        className="h-5 w-5 fill-current"
+                        viewBox="0 0 24 24"
                     >
-                        <path
-                            fillRule="evenodd"
-                            d="M14.293 14.293a1 1 0 01-1.414 0l-3.022-3.022a5.5 5.5 0 111.414-1.414l3.022 3.022a1 1 0 010 1.414zM6.5 10.5a4 4 0 117.999.001A4 4 0 016.5 10.5z"
-                            clipRule="evenodd"
-                        />
+                        <path d="M9.5 3C5.364 3 2 6.364 2 10.5c0 4.136 3.364 7.5 7.5 7.5 1.68 0 3.23-.56 4.48-1.5l5.52 5.52 1.5-1.5-5.52-5.52c.94-1.25 1.5-2.8 1.5-4.48C17 6.364 13.636 3 9.5 3zm0 12c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z" />
                     </svg>
                 </button>
             </div>

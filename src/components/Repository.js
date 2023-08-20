@@ -1,12 +1,22 @@
+import { useState } from "react";
+
 const Repository = ({ name, description, stars, language, url }) => {
+    const [isTruncated, setIsTruncated] = useState(true);
     return (
-        <div className="bg-white shadow-md rounded-md p-4 mb-4">
-            <h2 className="text-lg font-medium mb-2">
+        <div className="bg-red-100 shadow-md rounded-md p-4 mb-4">
+            <h2 className="text-xl font-medium mb-2">
                 <a href={url} target="_blank" rel="noopener noreferrer">
                     {name}
                 </a>
             </h2>
-            <p className="text-gray-700 mb-2">{description}</p>
+            <p
+                onClick={() => setIsTruncated(!isTruncated)}
+                className={`"text-gray-700 mb-2 truncate" ${
+                    isTruncated ? "truncate" : ""
+                }`}
+            >
+                {description}
+            </p>
             <div className="flex items-center text-gray-700">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +34,7 @@ const Repository = ({ name, description, stars, language, url }) => {
                 </svg>
                 <span>{stars}</span>
                 <span className="mx-2">•</span>
-                <span>{language}</span>
+                <span className="font-bold">{language}</span>
             </div>
         </div>
     );

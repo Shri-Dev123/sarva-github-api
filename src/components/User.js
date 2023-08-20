@@ -41,6 +41,7 @@ const User = () => {
         currentPage,
         repositoriesPerPage
     );
+    console.log(repositories);
 
     return (
         <div className="container mx-auto py-8">
