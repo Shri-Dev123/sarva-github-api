@@ -1,6 +1,6 @@
 Sure, here's an example README.md file for your app:
 
-# My App
+# Sarva-github-api
 
 This is a web application that allows users to search for GitHub repositories and view their details.
 
@@ -11,13 +11,13 @@ To run this app locally, you need to have Node.js and npm installed on your mach
 1. Clone the repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/your-username/my-app.git
+   git clone https://github.com/Shri-Dev123/sarva-github-api.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd my-app
+   cd sarva-github-api
    ```
 
 3. Install the dependencies:
@@ -36,9 +36,9 @@ To run this app locally, you need to have Node.js and npm installed on your mach
 
 ## Usage
 
-To use the app, follow these steps:
+To use the sarva-github-api, follow these steps:
 
-1. Enter a search query in the search bar and click the "Search" button.
+1. Enter a search query in the search bar and click the "Search" icon.
 
 2. The app will display a list of repositories that match your search query.
 
@@ -64,11 +64,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - This project was inspired by the GitHub repository search feature.
 - Thanks to the developers of React.js, Next.js, and Tailwind CSS for creating these amazing tools.
-
-Citations:
-[1] https://github.com/eli64s/readme-ai
-[2] https://youtube.com/watch?v=jeOfS90Flf8
-[3] https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-[4] https://pub.towardsai.net/gpt4readability-never-write-a-readme-again-4bb5f12e85b2
-[5] https://towardsai.net/p/machine-learning/gpt4readability-never-write-a-readme-again
-[6] https://www.reddit.com/r/ChatGPT/comments/12z9aea/gptbased_ai_that_can_have_access_to_my_entire/
